@@ -12,13 +12,16 @@ import Userprofile from "./components/Userprofile";
 import { Signin, Signup } from "./components/Form";
 import Uploadpost from "./components/Uploadpost";
 import Otherprofile from "./components/Otherprofile";
+import Category from "./components/Category";
+
 function App() {
   return (
-    <Router >
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/category" element={<Category />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/uploadpost" element={<Uploadpost />} />
         <Route path="/userprofile" element={<Userprofile />} />

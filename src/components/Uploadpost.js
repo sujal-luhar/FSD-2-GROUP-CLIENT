@@ -106,7 +106,7 @@ function Uploadpost() {
       {/* Upload Button Centered at the Bottom */}
       <div className="flex justify-center my-8 ">
         <button
-          className="bg-[#4dc47d] text-white py-2 px-4 rounded-full"
+          className="bg-[#31fe92] text-white py-2 px-4 rounded-full"
           onClick={handleUploadButtonClick}
         >
           Upload

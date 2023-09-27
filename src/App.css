@@ -1,0 +1,11 @@
+/* Define custom classes for the gradients */
+.gradient-transition {
+    background-image: linear-gradient(90deg, #4CB8C4, #3CD3AD);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+}
+
+/* Specify the gradient animation on hover */
+.gradient-transition:hover {
+    background-position: -100% 0;
+}

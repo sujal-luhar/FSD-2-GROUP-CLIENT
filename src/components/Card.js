@@ -19,10 +19,10 @@ function Card() {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-[#1f3626] shadow-md rounded-lg overflow-hidden m-3 p-1">
+    <div className="max-w-md mx-auto bg-white shadow-xl rounded-lg overflow-hidden m-3 p-1">
       <div className="p-4 grid grid-cols-6 gap-4">
         <h1 className="text-xl font-semibold mb-2 col-start-1 col-end-4">
-          <Link to="/otherprofile" className="font-medium text-[#d4f5de]">
+          <Link to="/otherprofile" className="font-medium text-black">
             <img
               className="h-8 w-8  rounded-full inline-block mr-2"
               src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -33,7 +33,7 @@ function Card() {
         </h1>
         {clickedFollow ? (
           <button
-            className="bg-[#4dc47d] text-black py-2 px-4 rounded-lg col-end-7 col-span-2 text-center"
+            className="bg-[#4dc47d] text-black  rounded-lg col-end-7 col-span-2 text-center"
             onClick={clickedFollowButton}
           >
             Unfollow
@@ -87,7 +87,7 @@ function Otherusercard() {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-[#1f3626] shadow-md rounded-lg overflow-hidden m-3 p-1 pt-3 ">
+    <div className="max-w-md mx-auto bg-white rounded-lg  shadow-xl overflow-hidden m-3 p-1 pt-3 ">
       <img
         src="https://via.placeholder.com/400x300"
         alt="Profile"
@@ -96,7 +96,7 @@ function Otherusercard() {
       <div className="flex justify-between p-4">
         <button onClick={handleLike}>
           <FaHeart
-            className={`text-xl ${isLiked ? "text-red-500" : "text-[#d4f5de]"}`}
+            className={`text-xl ${isLiked ? "text-red-500" : "text-[#d4f5de] border-black"}`}
           />
         </button>
         <button onClick={handleBookmark}>
