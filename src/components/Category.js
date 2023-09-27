@@ -3,7 +3,7 @@ import { Card } from "./Card";
 
 function Category() {
   return (
-    <div className="mt-16" style={{userSelect:"none"}}>
+    <div className="mt-16" style={{ userSelect: "none" }}>
       <h1 className="text-2xl font-semibold sm:text-5xl sm:font-bold text-center mb-3 sm:mb-10">
         Read our Trending Articles
       </h1>

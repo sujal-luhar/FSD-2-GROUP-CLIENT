@@ -81,10 +81,6 @@ function Otherusercard() {
   const handleBookmark = () => {
     setIsBookmarked(!isBookmarked);
   };
-  const [clickedFollow, setClickedFollow] = useState(false);
-  const clickedFollowButton = () => {
-    setClickedFollow(!clickedFollow);
-  };
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-lg  shadow-xl overflow-hidden m-3 p-1 pt-3 ">
@@ -96,7 +92,9 @@ function Otherusercard() {
       <div className="flex justify-between p-4">
         <button onClick={handleLike}>
           <FaHeart
-            className={`text-xl ${isLiked ? "text-red-500" : "text-[#d4f5de] border-black"}`}
+            className={`text-xl ${
+              isLiked ? "text-red-500" : "text-[#d4f5de] border-black"
+            }`}
           />
         </button>
         <button onClick={handleBookmark}>

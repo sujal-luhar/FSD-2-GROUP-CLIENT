@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
+import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 
 function Signin() {
@@ -32,7 +26,7 @@ function Signin() {
               className="text-[#1f3626] focus:text-[#1f3626]"
             />
           </div>
-         
+
           <Button
             className="mt-6 bg-gradient-to-r from-[#4CB8C4] to-[#3CD3AD] text-white font-bold py-2 px-4 rounded gradient-transition"
             fullWidth

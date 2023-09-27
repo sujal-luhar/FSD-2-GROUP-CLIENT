@@ -25,11 +25,11 @@ function Otherprofile() {
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Replace with a map function to generate responsive photo cards */}
           {/* Example card */}
-          <Otherusercard/>
-          <Otherusercard/>
-          <Otherusercard/>
-          <Otherusercard/>
-          <Otherusercard/>
+          <Otherusercard />
+          <Otherusercard />
+          <Otherusercard />
+          <Otherusercard />
+          <Otherusercard />
           {/* End of example card */}
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaUserPlus } from "react-icons/fa";
 
 function Userprofile() {
   return (
