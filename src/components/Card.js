@@ -33,14 +33,14 @@ function Card() {
         </h1>
         {clickedFollow ? (
           <button
-            className="bg-[#4dc47d] text-black  rounded-lg col-end-7 col-span-2 text-center"
+            className="bg-[#c8f4d5] text-black  rounded-lg col-end-7 col-span-2 text-center"
             onClick={clickedFollowButton}
           >
             Unfollow
           </button>
         ) : (
           <button
-            className="bg-[#d4f5de] text-black py-2 px-4 rounded-lg col-end-7 col-span-2 text-center"
+            className="bg-[#81e0a7] text-black py-2 px-4 rounded-lg col-end-7 col-span-2 text-center"
             onClick={clickedFollowButton}
           >
             Follow

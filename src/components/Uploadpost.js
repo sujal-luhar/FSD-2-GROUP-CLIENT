@@ -34,12 +34,12 @@ function Uploadpost() {
           {/* Left Side: Image Upload */}
           <div className="w-full lg:w-1/2 p-4 lg:mr-4">
             <label htmlFor="imageUpload" className="cursor-pointer">
-              <div className="relative border-dashed border-2 border-gray-300 bg-gray-100 p-4 rounded-lg text-center">
+              <div className="relative border-dashed border-2 h-96 w-full flex justify-center items-center border-gray-300 bg-gray-100 rounded-lg text-center">
                 {selectedImage ? (
                   <img
                     src={selectedImage}
                     alt="Uploaded"
-                    className="w-40 h-40 mx-auto mb-4 object-cover rounded-lg"
+                    className="w-full h-96 object-cover rounded-lg"
                   />
                 ) : (
                   <div>
