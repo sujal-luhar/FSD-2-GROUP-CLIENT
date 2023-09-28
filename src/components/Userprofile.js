@@ -16,14 +16,14 @@ function Userprofile() {
       {/* Image Upload Section */}
       <div className="mt-8">
         <h2 className="text-xl font-semibold mb-4">Uploaded Images</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace with a map function to generate responsive photo cards */}
           {/* Example card */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -34,7 +34,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -45,7 +45,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -56,7 +56,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -67,7 +67,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -78,7 +78,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -89,7 +89,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
@@ -100,7 +100,7 @@ function Userprofile() {
             <img
               src="images/background.jpg"
               alt="Uploaded-Something"
-              className="w-full h-48 object-cover"
+              className="w-full h-64 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>

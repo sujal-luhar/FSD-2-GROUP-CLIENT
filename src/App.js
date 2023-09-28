@@ -8,6 +8,7 @@ import { Signin, Signup } from "./components/Form";
 import Uploadpost from "./components/Uploadpost";
 import Otherprofile from "./components/Otherprofile";
 import Category from "./components/Category";
+import ImageDetail from "./components/ImageDetail";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/uploadpost" element={<Uploadpost />} />
         <Route path="/userprofile" element={<Userprofile />} />
         <Route path="/otherprofile" element={<Otherprofile />} />
+        <Route path="/image" element={<ImageDetail />} />
       </Routes>
       <Footer />
     </Router>
