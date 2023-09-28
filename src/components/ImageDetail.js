@@ -20,7 +20,7 @@ function ImageDetail() {
 
     return (
         <div className="p-12 gap-4">
-            <div className="p-4 grid grid-cols-6">
+            <div className="p-4 flex justify-between">
                 <h1 className="text-xl font-semibold mb-2 col-start-1 col-end-4">
                     <Link to="/otherprofile" className="font-medium text-black">
                         <img
@@ -33,14 +33,14 @@ function ImageDetail() {
                 </h1>
                 {clickedFollow ? (
                     <button
-                        className="bg-[#c8f4d5] text-black  rounded-lg col-end-7 col-span-1 text-center"
+                        className="bg-[#c8f4d5] text-black w-24 rounded-lg text-center"
                         onClick={clickedFollowButton}
                     >
                         Unfollow
                     </button>
                 ) : (
                     <button
-                        className="bg-[#81e0a7] text-black py-2 px-4  rounded-lg col-end-7 col-span-1 text-center"
+                        className="bg-[#81e0a7] text-black py-2 px-4 w-24 rounded-lg text-center"
                         onClick={clickedFollowButton}
                     >
                         Follow
@@ -69,7 +69,7 @@ function ImageDetail() {
                 </button>
             </div>
 
-            <div className="p-4">
+            <div className="p-4 mb-40">
               <h3 className="text-lg font-semibold mb-2">Image Title</h3>
               <p className="text-gray-600">Description of the image.</p>
             </div>
